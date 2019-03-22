@@ -1,0 +1,18 @@
+language: python
+python:
+- '2.6'
+- '2.7'
+- '3.3'
+- '3.4'
+- '3.5'
+- 3.5-dev
+- '3.6'
+- 3.6-dev
+- 3.7-dev
+install:
+- pip install -r requirements.txt
+script:
+- pytest
+deploy:
+  password:
+    secure: dfj1Aa6v0Pl0DgOqOQj3SwlPUJPi+Fu52GQMPeNUSngcyXTZJIvSKI/YGttogIawhqXqz7wp4M/ASwljZIemrC+MsPQAjD4sAB7bZCU5R4+tLJdkVT/AZ7rsN+AP85bpBgSoTQzvXSHiYMRdo/xz7gLgf581gTt/eU9nivWktVhX3E9N8p8vGDI1B6n6RRK6wFM4Gz5cA/+myMqJ6VB9jFV9jpZ6701WcHvVuUPFBG1BKyVPfJw75JKZf1qnm7cqoh5wEU9orIJm7X3n03ev9naMsx6ZRy8y3mVPh40jVEnOG5cPgJSDLDnBZ/DBPPQbZEeaXLDoWOtj9HmQY0FSehyYV6N3ZlwTASS5rAazvfRx2+64zzy+ZlE3KaS+RUvjSYpbAjSk3N+c9X14nwyGaStB/T8lYe4QWzLB0NwWbIUisJ/WB0Jslab7cIzlKfphv6hc6hC2IycSpq4JtLElH7iRtcwc+XWgMmlKjcWbVN4P0FVxn1y4D2/NAMux+LPg7mv6rLOvUriIPylHKHeThLYnPqOjAvadCekSuDcObThypH6qIaErI8rNd27QmY74+tpmL6ZkVoiTkGYJrwcs8hvYuQaDjK0kKwjvnTQSWNYELpJAD4jMimp2qPBHb+TA5nk/YUr2yAEPYgHpgrizLNfPf07nw0xxSYXnfopVu2Y=
